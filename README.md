@@ -1,3 +1,26 @@
+#This example was created following :
+https://github.com/rainbow-me/rainbowkit
+
+After clone run:
+
+```bash
+npm install
+npm run dev
+```
+This will start the app in the port 3000
+
+Open the browser and go to http://localhost:3000
+
+Open dev tools (f12)
+
+Now go to http://localhost:3000/?token=0x765
+
+look in the console for the message.
+
+Thanks.
+
+#From Original:
+
 This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](https://github.com/rainbow-me/rainbowkit/tree/main/packages/create-rainbowkit).
 
 ## Getting Started

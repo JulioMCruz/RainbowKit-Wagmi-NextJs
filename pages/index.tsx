@@ -27,8 +27,8 @@ const Home: NextPage = () => {
     }
   }, [signer, router, mounted, address]);
 
-
   return (
+
     <div className={styles.container}>
       <Head>
         <title>RainbowKit App</title>
@@ -41,6 +41,12 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <ConnectButton />
+
+        <br/>
+        <button onClick={() => {
+            console.log(signer);
+            console.log(address);
+          }}>User Info</button>
 
         <h1 className={styles.title}>
           Welcome to <a href="">RainbowKit</a> + <a href="">wagmi</a> +{' '}
